@@ -4968,6 +4968,7 @@ button.close {
   border-bottom: 1px solid #f7f7f7;
 }
 
+
 .popover.bs-popover-left, .popover.bs-popover-auto[x-placement^="left"] {
   margin-right: 10px;
 }

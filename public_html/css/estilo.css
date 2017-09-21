@@ -1,12 +1,44 @@
 .titulos {
     color: blue;
-    text-align: center;
-    background: red;   
+    text-align: center;    
 }
-
 .inputArredondado {
     border-radius: 10px;
     border: none;
-    background-color: black;
-    
+    background-color: red;
+    color: white;   
+}
+div{
+    border: 1px solid;    
+}
+#container{
+    background-color: lightcoral;/*coloca cor*/
+    width: 90%;/*largura*/
+    height: 900px;/*altura*/
+}
+#cabeçalho{
+    background-color: lightblue;
+    width: 100%;/*largura*/
+    height: 15%;/*altura*/    
+}
+#conteudo{
+    width: 100%;/*largura*/
+    height: 60%;/*altura*/  
+    }
+#menu_lateral{
+    background-color: lightseagreen;
+    width: 30%;/*largura*/
+    height: 100%;/*altura*/
+    float: left;/*flutua para o lado esquerdo*/
+    }   
+#conteudo_lateral{
+    background-color: lightslategray;
+    width: 65%;/*largura*/
+    height: 100%;/*altura*/
+    float: right;/*flutua para o lado direito*/
+}
+#rodape{
+    background-color: lightyellow;
+    width: 100%;
+    height: 15%;
 }
