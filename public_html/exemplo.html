@@ -3,16 +3,33 @@
     <head>
         <meta charset="UTF-8" />
         <title>Layout Bootstrap</title>
-        <link rel="stylesheet" href="css/estilo.css" />      
+        <link rel="stylesheet" href="css/bootstrap.css" />      
     </head>
     <body>
-        <div id="container">
-            <div id="cabeçalho">Cabeçalho</div>
-            <div id="conteudo">
-                <div id="menu_lateral">Menu Lateral</div>
-                <div id="conteudo_lateral">Conteudo lateral</div>
+        <div class="container">
+            
+            
+            <div class="row"><!-- row significa linha -->
+                <div class="col-md-12" style="background: red; height: 100px;">Cabecalho</div>
             </div>
-            <div id="rodape">Rodape</div>           
-        </div>
+
+           
+                
+                <div class="row">
+                   <div class="col-md-3" style="background: orange; height: 600px;">Menu Lateral</div>
+                   <div class="col-md-9" style="background: yellow; height: 600px;">Conteudo Lateral</div>
+                </div>   
+                    
+                    
+                <div class="row">
+                    <div class="col-md-12" style="background: blue; height: 100px;">Rodape</div>
+                 
+                    </div>
+          
+                   
+                    </div>
+            
+       
+    
     </body>
 </html>
